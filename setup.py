@@ -7,7 +7,7 @@ def readme():
     return content
 
 
-version_file = 'rtmlib/version.py'
+version_file = 'src/rtmlib/version.py'
 
 
 def get_version():
@@ -109,7 +109,8 @@ if __name__ == '__main__':
           keywords='pose estimation',
           long_description=readme(),
           long_description_content_type='text/markdown',
-          packages=find_packages(),
+          package_dir={'': 'src'},
+          packages=find_packages(where='src'),
           include_package_data=True,
           url='https://github.com/Tau-J/rtmlib',
           license='Apache License 2.0',

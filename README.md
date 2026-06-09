@@ -150,19 +150,19 @@ python webui.py
 ### APIs
 
 - Solutions (High-level APIs)
-  - [PoseTracker](/rtmlib/tools/solution/pose_tracker.py)
-  - [Wholebody](/rtmlib/tools/solution/wholebody.py)
-  - [Body](/rtmlib/tools/solution/body.py)
-  - [Body_with_feet](/rtmlib/tools/solution/body_with_feet.py)
-  - [Hand](/rtmlib/tools/solution/hand.py)
-  - [Animal](/rtmlib/tools/solution/animal.py) (bird, cat, dog, horse, sheep, cow, elephant, bear, zebra, giraffe)
-  - [Custom](/rtmlib/tools/solution/custom.py)
-  - [Wholebody3d](/rtmlib/tools/solution/wholebody3d.py)
+  - [PoseTracker](/src/rtmlib/tools/solution/pose_tracker.py)
+  - [Wholebody](/src/rtmlib/tools/solution/wholebody.py)
+  - [Body](/src/rtmlib/tools/solution/body.py)
+  - [Body_with_feet](/src/rtmlib/tools/solution/body_with_feet.py)
+  - [Hand](/src/rtmlib/tools/solution/hand.py)
+  - [Animal](/src/rtmlib/tools/solution/animal.py) (bird, cat, dog, horse, sheep, cow, elephant, bear, zebra, giraffe)
+  - [Custom](/src/rtmlib/tools/solution/custom.py)
+  - [Wholebody3d](/src/rtmlib/tools/solution/wholebody3d.py)
 - Detectors (Low-level APIs)
-  - [YOLOX](/rtmlib/tools/object_detection/yolox.py) (human and multiclass)
-  - [RTMDet](/rtmlib/tools/object_detection/rtmdet.py)
+  - [YOLOX](/src/rtmlib/tools/object_detection/yolox.py) (human and multiclass)
+  - [RTMDet](/src/rtmlib/tools/object_detection/rtmdet.py)
 - Pose Estimators (Low-level APIs)
-  - [RTMPose](/rtmlib/tools/pose_estimation/rtmpose.py)
+  - [RTMPose](/src/rtmlib/tools/pose_estimation/rtmpose.py)
     - RTMPose for 17 keypoints
     - RTMO for 17 keypoints (**one-stage**)
     - RTMPose for 21 keypoints (**hand**)
@@ -170,7 +170,7 @@ python webui.py
     - RTMW for 133 keypoints
     - DWPose for 133 keypoints
     - RTMW3D for 133 keypoints (**3D**)
-  - [ViTPose](/rtmlib/tools/pose_estimation/vitpose.py)
+  - [ViTPose](/src/rtmlib/tools/pose_estimation/vitpose.py)
     - ViTPose for 17 keypoints
     - ViTPose for 17 keypoints (**animal**)
     - ViTPose for 25 keypoints
